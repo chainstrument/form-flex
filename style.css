@@ -10,4 +10,8 @@ html, body{
 #registration-page{
     height: 100%;
     background-color: #78a7ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
 }
