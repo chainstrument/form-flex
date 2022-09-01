@@ -26,6 +26,8 @@ html, body{
     max-width: 600px;
     border-radius: 10px;
     border: 1px solid #999;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .form-header{
