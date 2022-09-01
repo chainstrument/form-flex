@@ -19,5 +19,7 @@ html, body{
 .signup-form{
     flex:1;
     background-color: #eff0f1;
-    
+    max-width: 600px;
+    border-radius: 10px;
+    border: 1px solid #999;
 }
