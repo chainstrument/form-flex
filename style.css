@@ -93,6 +93,27 @@ select
     color: #666;
     cursor: pointer;
 }
+
+.range-group
+{
+    display: flex;
+}
+
+
+.range-group input{
+    flex:1;
+}
+
+.range-group label {
+    margin-left: 10px;
+    background-color: #1BBA93;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+    text-align: center;
+  }
+
 @media only screen and (max-width: 500px ) {
     
     .row{

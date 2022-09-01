@@ -110,14 +110,18 @@
                     <div class="input-group">
                       <label>Income</label>
                       <div class="range-group">
-                        <input type="range">
-                        <label>14</label>
+                        <input type="range" onchange="changeSliderValue(this.value)">
+                        <label id="rangeSliderLabel">14</label>1
                       </div>
                     </div>
                   </div>
             </div>
         </form>
      </section>
-
+<script>
+    const changeSliderValue = (value) => {
+        document.getElementById("rangeSliderLabel").innerText = value + " K";
+    }
+</script>
 </body>
 </html>
