@@ -38,3 +38,8 @@ html, body{
     text-align: center;
     color:#666;
 }
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
